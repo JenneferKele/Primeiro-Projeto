@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+.text-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 7em;
+}
+
+.bg-title {
+    background-image: linear-gradient(to bottom right, #7158e2, #18dcff);
+    background: url('banner.jpg');
+}
+
+.form-control {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    color: #0069d9;
+}
+
+.btn-outline-success {
+    color: #0062cc;
+    background-color: #0062cc;
+    border-color: #0062cc;
+}
+
+.btn-outline-success:hover {
+    color: #0069d9;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-outline-success:focus,
+.btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
