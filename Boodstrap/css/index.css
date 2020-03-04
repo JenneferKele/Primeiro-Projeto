@@ -6,4 +6,5 @@
 
 .bg-title {
     background-image: linear-gradient(to bottom right, #7158e2, #18dcff);
+    background: url('banner.jpg');
 }
