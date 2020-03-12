@@ -5,6 +5,50 @@
 }
 
 .bg-title {
-    background-image: linear-gradient(to bottom right, #ff008c, #00ffaa, #d9ff00);
+    background-image: linear-gradient(to bottom right, #aa0560, #7effd4, #b1cf04, #f82a06);
     color: black;
+}
+
+#footer {
+    margin: 0px auto 0px auto;
+    padding: 0px 0 0 0;
+    text-align: center;
+    position: static;
+    width: 100%;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.static {
+    position: static;
+}
+
+#footer-left {
+    color: #FFFFFF;
+    font-size: 11px;
+    line-height: 11px;
+    padding: 10px 0 10px 0px;
+    border-top: 5px solid #A5151E;
+    border-bottom: 1px solid #dbdbdb;
+    background: #2A2A2A;
+    height: 12px;
+}
+
+#footer-left a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#footer-left a.selected,
+#footer-left a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#conteudo {
+    height: 300px;
+    width: 500%;
+    background: yellow;
 }
